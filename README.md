@@ -21,7 +21,21 @@ Goal of this assignment is to understand meta-learning for few shot classificati
 The analysis is performed using Omniglot dataset [2]---a dataset with 1623 characters from 50 languages and each character
 has 20 28x28 images.
 
+## Homework 2: [Prototypical Networks and Model-Agnostic Meta-Learning](hw2/hw2_solutions.pdf)
+This assignment experiments with two meta-learning algorithms, prototypical networks (protonets) [3] and model-agnostic 
+meta-learning (MAML) [4] for few-shot image classification on the Omiglot dataset [2]. Following are the key tasks in the 
+assignment:
+- Implementation of the protonets and MAML algorithms
+- Interpretation of the key metrics of both the algorithms
+- Investigate the effect of task composition during protonet training on evaluation.
+- Investigate the effect of different inner loop adaptation settings in MAML.
+- Investigate the performance of both algorithms on meta-test tasks that have more support data than training tasks do.
+
 ## References
 [1] Santoro, A., Bartunov, S., Botvinick, M., Wierstra, D., & Lillicrap, T. (2016, June). Meta-learning with memory-augmented neural networks. In International conference on machine learning (pp. 1842-1850). PMLR.
 
 [2] Lake, B. M., Salakhutdinov, R., & Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338.
+
+[3] Snell, J., Swersky, K., & Zemel, R. (2017). Prototypical networks for few-shot learning. Advances in neural information processing systems, 30.
+
+[4] Finn, C., Abbeel, P., & Levine, S. (2017, July). Model-agnostic meta-learning for fast adaptation of deep networks. In International conference on machine learning (pp. 1126-1135). PMLR.
