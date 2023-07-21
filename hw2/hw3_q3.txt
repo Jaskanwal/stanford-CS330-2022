@@ -1,0 +1,85 @@
+---protonet, K=1---
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+Loaded checkpoint iteration 4200.
+Testing on tasks with composition num_way=5, num_support=1, num_query=10
+Accuracy over 600 test tasks: mean 0.987, 95% confidence interval 0.002
+
+
+---protonet, K=2---
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+Loaded checkpoint iteration 4200.
+Testing on tasks with composition num_way=5, num_support=2, num_query=10
+Accuracy over 600 test tasks: mean 0.994, 95% confidence interval 0.001
+
+
+---protonet, K=4---
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+Loaded checkpoint iteration 4200.
+Testing on tasks with composition num_way=5, num_support=4, num_query=10
+Accuracy over 600 test tasks: mean 0.996, 95% confidence interval 0.001
+
+
+---protonet, K=6---
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+Loaded checkpoint iteration 4200.
+Testing on tasks with composition num_way=5, num_support=6, num_query=10
+Accuracy over 600 test tasks: mean 0.997, 95% confidence interval 0.001
+
+
+---protonet, K=8---
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+Loaded checkpoint iteration 4200.
+Testing on tasks with composition num_way=5, num_support=8, num_query=10
+Accuracy over 600 test tasks: mean 0.997, 95% confidence interval 0.001
+
+
+---protonet, K=10---
+log_dir: ./logs/protonet/omniglot.way_5.support_1.query_15.lr_0.001.batch_size_16
+Loaded checkpoint iteration 4200.
+Testing on tasks with composition num_way=5, num_support=10, num_query=10
+Accuracy over 600 test tasks: mean 0.996, 95% confidence interval 0.001
+
+
+
+---MAML, K=1---
+log_dir: ./logs/maml/omniglot.way_5.support_1.query_15.inner_steps_1.inner_lr_0.4.learn_inner_lrs_True.outer_lr_0.001.batch_size_16
+Loaded checkpoint iteration 5200.
+Testing on tasks with composition num_way=5, num_support=1, num_query=10
+Accuracy over 600 test tasks: mean 0.978, 95% confidence interval 0.003
+
+
+---MAML, K=2---
+log_dir: ./logs/maml/omniglot.way_5.support_1.query_15.inner_steps_1.inner_lr_0.4.learn_inner_lrs_True.outer_lr_0.001.batch_size_16
+Loaded checkpoint iteration 5200.
+Testing on tasks with composition num_way=5, num_support=2, num_query=10
+Accuracy over 600 test tasks: mean 0.989, 95% confidence interval 0.002
+
+
+---MAML, K=4---
+log_dir: ./logs/maml/omniglot.way_5.support_1.query_15.inner_steps_1.inner_lr_0.4.learn_inner_lrs_True.outer_lr_0.001.batch_size_16
+Loaded checkpoint iteration 5200.
+Testing on tasks with composition num_way=5, num_support=4, num_query=10
+Accuracy over 600 test tasks: mean 0.991, 95% confidence interval 0.002
+
+
+---MAML, K=6---
+log_dir: ./logs/maml/omniglot.way_5.support_1.query_15.inner_steps_1.inner_lr_0.4.learn_inner_lrs_True.outer_lr_0.001.batch_size_16
+Loaded checkpoint iteration 5200.
+Testing on tasks with composition num_way=5, num_support=6, num_query=10
+Accuracy over 600 test tasks: mean 0.993, 95% confidence interval 0.001
+
+
+---MAML, K=8---
+log_dir: ./logs/maml/omniglot.way_5.support_1.query_15.inner_steps_1.inner_lr_0.4.learn_inner_lrs_True.outer_lr_0.001.batch_size_16
+Loaded checkpoint iteration 5200.
+Testing on tasks with composition num_way=5, num_support=8, num_query=10
+Accuracy over 600 test tasks: mean 0.994, 95% confidence interval 0.002
+
+
+---MAML, K=10---
+log_dir: ./logs/maml/omniglot.way_5.support_1.query_15.inner_steps_1.inner_lr_0.4.learn_inner_lrs_True.outer_lr_0.001.batch_size_16
+Loaded checkpoint iteration 5200.
+Testing on tasks with composition num_way=5, num_support=10, num_query=10
+Accuracy over 600 test tasks: mean 0.993, 95% confidence interval 0.002
+
+
