@@ -31,6 +31,13 @@ assignment:
 - Investigate the effect of different inner loop adaptation settings in MAML.
 - Investigate the performance of both algorithms on meta-test tasks that have more support data than training tasks do.
 
+## Homework 3: [Few-Shot Learning with Pre-trained Language Models](hw3/hw3_solutions.pdf)
+This assignment will explore several methods for performing **few-shot (and zero-shot)** learning with pre-trained language models (LMs), 
+including variants of **fine-tuning** and **in-context** learning. The goal of this assignment is to gain familiarity 
+with performing few-shot learning with pre-trained LMs, learn about the relative strengths and weaknesses of 
+fine-tuning and in-context learning, and explore some recent methods proposed for improving on the basic form of 
+these algorithms, for example different pormpting techniques for in-context learning and Low-rank Adaptation (LoRA) for fine-tuning.
+
 ## References
 [1] Santoro, A., Bartunov, S., Botvinick, M., Wierstra, D., & Lillicrap, T. (2016, June). Meta-learning with memory-augmented neural networks. In International conference on machine learning (pp. 1842-1850). PMLR.
 
